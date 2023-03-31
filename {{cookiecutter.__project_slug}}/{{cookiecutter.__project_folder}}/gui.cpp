@@ -1,5 +1,5 @@
 #include "gui.h"
 
-{{cookiecutter.__project_slug}}::{{cookiecutter.__project_slug}}(const lv_disp_t *dsp): interface::gui(dsp) {
+{{cookiecutter.__project_slug}}::{{cookiecutter.__project_slug}}(short hor_res, short ver_res): interface::gui(hor_res, ver_res) {
 
 }

@@ -9,10 +9,11 @@ extern "C" {
 #endif
 
 #define GUI_PREFERRED_ROTATION 1
+#define PREFERRED_THEME lv_theme_default_init
 
 class {{cookiecutter.__project_slug}}: public interface::gui {
     public:
-    {{cookiecutter.__project_slug}}(const lv_disp_t *);
+    {{cookiecutter.__project_slug}}(short, short);
 };
 
 
